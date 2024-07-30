@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:#dadada ;
+}
+a{
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #131921;
+    color: #fff;
+    margin-top: none;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.header{
+    background-image: url(img/amback.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.navcountry{
+  display: flex;  
+  align-items: end;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navcountry i{
+    margin-bottom: 10px;
+}
+.navcountry h1{
+    color: #fff;
+    font-size: 14px;
+}
+.nav-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    background: #fff;
+    color: gray;
+    border-radius: 6px;
+}
+select{
+    background:white;
+    color: #131921;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    
+    padding: 10px 20px;
+    padding-left: 20px;
+
+    
+}
+.nav-search-input{
+
+    width: 100px;
+    outline: none;
+    border: none;
+    padding-left: 600px;
+}
+.search-icon{
+    padding: 8px;
+    background: rgb(255, 179, 0);
+    max-width: 40px;
+    color: #fff;
+    border-radius: 3px;
+    padding-left: 2px;
+   
+    
+}
+.language{
+   flex: 1;
+   display: flex;
+   align-items:  center;
+   gap: 2px;
+   font-weight: 600;
+   margin-left: 80px;
+   
+
+}
+
+.nav-text{
+    margin-left: 100px;
+    margin-right: 85px;
+   
+}
+.nav-text h2{
+    font-size: 20px;
+    
+
+}
+.nav-text h1{
+    font-size: 14px;
+   
+
+}
+.nav-cart{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.nav-cart h3{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-right: 3px;
+}
+
+.nav-cart i{
+    font-size: 25px;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 20px;
+    background: #232f3e;
+    color: #fff;
+    padding: 10px 20px;
+}
+.nav-bottom div{
+    display: flex;
+    align-items: center;}
+    .h-img{
+        width: 100%;
+        height: 500px;
+        background: cover;
+    }
+    
+       .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: rgb(173, 173, 173);
+        
+       }
+    .box{
+        border:1000px black;
+        height: 450px;
+        width: 30%; 
+        background: white;
+        margin-top: 50px;
+
+    }
+
+    .box h1{
+        padding-left: 12px;
+    }
+    .img1{
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    .img2{
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    .img3{
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    .box a{
+        padding-left: 110px;
+        
+    }
+    .img4{
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    .img5{
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    .img6{
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    .footer{
+        margin-top: 5px;
+    }
+    .foot-panel{
+        height: 50px;
+        background-color: #29466b;
+        color: white;
+        display: flex;
+        padding-left: 45%;
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .foot-panel2{
+        height: 400px;
+        background-color: #232f3e;
+        display: flex;
+        justify-content: space-evenly;
+        color:white;
+
+
+        
+    }
+    ul{
+        margin-top: 10px;
+    }
+    ul p{
+        display: block;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #dadada;
+    }
+    .foot-panel3{
+        height: 100px;
+        background-color: #232f3e;
+        margin-top: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .but{
+        background-color:transparent;
+        color: #dadada;
+        border: none;
+    }
+    
+    .butt1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 12px;
+    }
+      .butt1 img{
+       margin-left: 15px;
+       height: 100%;
+    }
+    .amlogo{
+        padding-left: 55px;
+    }
+    .foot-panel4{
+        background-color:black ;
+        color: white;
+        padding-left: 42%;
+        height: 50px;
+        padding-top: 4px;
+    }
+    .pages{
+        display: flex;
+        
+       
+        align-items: center;
+    }
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 95%;
+        height: 400px;
+        padding-top: 50px;
+        padding-left: 80px;
+        margin-top: 50px;
+        
+    }
+    .imagesss{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 95%;
+        height: 400px;
+        padding-top: 50px;
+        padding-left: 80px;
+        margin-top: 50px;
+        
+    }
+
+    
+        
+    
+    
+    
+    
+    
